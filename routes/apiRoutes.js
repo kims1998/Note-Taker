@@ -35,6 +35,6 @@ module.exports = function (app) {
                 res.end();
             });
         });
-        console.log(newNotes)
+        console.log(newNotes);
     });
 };
