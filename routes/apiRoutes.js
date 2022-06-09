@@ -1,8 +1,9 @@
 const fs = require("fs");
 const db = require("../db/db.json");
+//the uuid is added to help create generating a unique ID
 const uuid = require("uuid");
 
-
+//Routing occurs here
 module.exports = function (app) {
     app.get("/api/notes", function (req, res) {
         fs.readFile(__dirname + "/../db/db.json", (err, data) => {
@@ -12,7 +13,7 @@ module.exports = function (app) {
         });
     });
   
-
+//Post request occurs here
     app.post("/api/notes", function (req, res) {
         let notesArr = [];
         let newNotes = {
