@@ -15,6 +15,7 @@ After the user has inputted their notes and saved them, the notes shall appear j
 
 <img src="assets\Final product.PNG">
 
+
 ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
@@ -52,6 +53,7 @@ Node Server.js
 ```sh
 ✏️ node server.js
 ```
+You can deploy this application also through Heroku!
 
 ## Contacts
 Find me on GitHub: [kims1998](https://github.com/kims1998)<br/>
